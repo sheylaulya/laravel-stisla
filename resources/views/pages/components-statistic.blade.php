@@ -17,7 +17,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <h5>
-                                    <a href="">New Data [+]</a>
+                                <button id="modal-1" type="button" class="btn btn-primary">Add Students</button>
                                 </h5>
                             </div>
                             <div class="card-body p-0">
@@ -117,10 +117,88 @@
 
         </section>
     </div>
+
+    
+    <form class="modal-part"
+            id="modal-add-part">
+            <div class="form-group">
+                <label>First Name</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="text"
+                        class="form-control"
+                        placeholder="NISN"
+                        name="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Full Name"
+                        name="password">
+                </div>
+            </div>
+           
+            <div class="form-group">
+                <label>GENDER</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-venus-mars"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Gender"
+                        name="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Class</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Full Name"
+                        name="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>DATE OF BIRTH</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-cake-candles"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="DATE OF BIRTH"
+                        name="password">
+                </div>
+            </div>
+        </form>
 @endsection
 
 @push('scripts')
-    <!-- JS Libraies -->
-
+  <!-- JS Libraies -->
+<script src="{{ asset('library/prismjs/prism.js') }}"></script>
     <!-- Page Specific JS File -->
+    <script src="{{ asset('js/page/bootstrap-modal.js') }}"></script>
+
 @endpush

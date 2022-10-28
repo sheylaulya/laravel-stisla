@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-24 col-lg-15">
                     <div class="card">
                         <div class="card-header">
                             <h4>Recent Activities</h4>
@@ -84,7 +84,7 @@
                                     <div class="media-body">
                                         <div class="text-primary float-right">Now</div>
                                         <div class="media-title">Kiagus Ahmad Farhan Aziz</div>
-                                        <span class="text-small text-muted">Bolos sekolah.</span>
+                                        <span class="text-large text-muted">Bolos sekolah.</span>
                                     </div>
                                 </li>
                                 <li class="media">
@@ -99,12 +99,6 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="pt-1 pb-1 text-center">
-                                <a href="#"
-                                    class="btn btn-primary btn-lg btn-round">
-                                    View All
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>

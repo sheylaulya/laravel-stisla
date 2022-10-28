@@ -16,9 +16,7 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h5>
-                                    <a href="">New Data [+]</a>
-                                </h5>
+                            <button id="modal-1" type="button" class="btn btn-primary">Add Class</button>
                             </div>
                             <div class="card-body p-0">
                                 <div class="table-responsive">
@@ -55,7 +53,7 @@
 
                                         <tr>
                                             <td class="p-0 text-center">
-                                                1
+                                                2
                                             </td>
                                             <td>
                                                 XI BRC 
@@ -82,10 +80,87 @@
 
         </section>
     </div>
+
+    
+    <form class="modal-part"
+            id="modal-add-part">
+            <div class="form-group">
+                <label>Class</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="text"
+                        class="form-control"
+                        placeholder="Class"
+                        name="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Student</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Student"
+                        name="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Male</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-venus-mars"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Count Number"
+                        name="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Female</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-venus-mars"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Count Number"
+                        name="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Major</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <input type="password"
+                        class="form-control"
+                        placeholder="Major"
+                        name="password">
+                </div>
+            </div>
+        </form>
 @endsection
 
 @push('scripts')
-    <!-- JS Libraies -->
-
+<!-- JS Libraies -->
+<script src="{{ asset('library/prismjs/prism.js') }}"></script>
     <!-- Page Specific JS File -->
+    <script src="{{ asset('js/page/bootstrap-modal.js') }}"></script>
+
 @endpush
