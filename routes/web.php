@@ -19,10 +19,6 @@ Route::redirect('/', '/dashboard-general-dashboard');
 Route::get('/dashboard-general-dashboard', function () {
     return view('pages.dashboard-general-dashboard', ['type_menu' => 'dashboard']);
 });
-Route::get('/dashboard-ecommerce-dashboard', function () {
-    return view('pages.dashboard-ecommerce-dashboard', ['type_menu' => 'dashboard']);
-});
-
 
 // bootstrap
 Route::get('/bootstrap-modal', function () {
@@ -30,11 +26,11 @@ Route::get('/bootstrap-modal', function () {
 });
 
 // components
-Route::get('/components-statistic', function () {
-    return view('pages.components-statistic', ['type_menu' => 'components']);
+Route::get('/students', function () {
+    return view('pages.students', ['type_menu' => 'components']);
 });
-Route::get('/components-table', function () {
-    return view('pages.components-table', ['type_menu' => 'components']);
+Route::get('/class', function () {
+    return view('pages.class', ['type_menu' => 'components']);
 });
 
 

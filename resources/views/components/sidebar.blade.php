@@ -1,7 +1,7 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html">Suka Suka Saya</a>
+            <a href="index.html">j a m e t</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="index.html">St</a>
@@ -11,12 +11,12 @@
                 <a class="nav-link" href="{{ url('dashboard-general-dashboard') }}">Dashboard</a>
             </li>
 
-            <li class="{{ Request::is('components-table') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('components-table') }}">Data Kelas</a>
+            <li class="{{ Request::is('class') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ url('class') }}">Class</a>
             </li>
 
-            <li class="{{ Request::is('components-statistic') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('components-statistic') }}">Data Siswa</a>
+            <li class="{{ Request::is('students') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ url('students') }}">Students</a>
             </li>
 
     </aside>

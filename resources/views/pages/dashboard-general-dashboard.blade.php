@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'General Dashboard')
+@section('title', 'Stisla-Slicing')
 
 @push('style')
     <!-- CSS Libraries -->
@@ -24,7 +24,7 @@
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4>Total Student</h4>
+                                <h4>Student Total</h4>
                             </div>
                             <div class="card-body">
                                 5
@@ -39,7 +39,7 @@
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4>Total Class</h4>
+                                <h4>Class Total</h4>
                             </div>
                             <div class="card-body">
                                 2

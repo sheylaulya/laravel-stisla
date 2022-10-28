@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Blank Page')
+@section('title', 'Stisla-Slicing')
 
 @push('style')
     <!-- CSS Libraries -->
@@ -9,7 +9,7 @@
 @section('main')<div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>Table Kelas</h1>
+                <h1>Class Data</h1>
             </div>
             
                     <div class="row">

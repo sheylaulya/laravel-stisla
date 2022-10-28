@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Blank Page')
+@section('title', 'Stisla-Slicing')
 
 @push('style')
     <!-- CSS Libraries -->
@@ -60,7 +60,7 @@
 
                                         <tr>
                                             <td class="p-0 text-center">
-                                                1
+                                                2
                                             </td>
                                             <td>
                                                 <img alt="image"
@@ -131,7 +131,7 @@
                     </div>
                     <input type="text"
                         class="form-control"
-                        placeholder="NISN"
+                        placeholder="First Name"
                         name="email">
                 </div>
             </div>
@@ -145,7 +145,7 @@
                     </div>
                     <input type="password"
                         class="form-control"
-                        placeholder="Full Name"
+                        placeholder="Last Name"
                         name="password">
                 </div>
             </div>
@@ -172,10 +172,10 @@
                             <i class="fa-solid fa-user"></i>
                         </div>
                     </div>
-                    <input type="password"
+                    <input type="text"
                         class="form-control"
                         placeholder="Full Name"
-                        name="password">
+                        name="class">
                 </div>
             </div>
             <div class="form-group">
